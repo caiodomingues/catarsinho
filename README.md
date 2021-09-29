@@ -47,5 +47,5 @@ json-server --watch db.json --port 8000
 ### 2. Inicie o React
 
 ```sh
-yarn dev
+yarn start
 ```
