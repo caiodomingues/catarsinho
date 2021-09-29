@@ -13,7 +13,7 @@ function ProgressBar({ collected, goal, max }: ProgressBarProps) {
       value={(collected * 100) / goal}
       max={max}
     >
-      {(goal * 100) / 100}%
+      {(collected * 100) / goal}%
     </progress>
   );
 }

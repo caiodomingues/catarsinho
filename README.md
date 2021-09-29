@@ -6,3 +6,16 @@ Este é um projeto de teste para o Catarse. A aplicação foi desenvolvida com R
 > Visto que o projeto segue um corpo padrão, não optei por transformá-lo em um componente para reduzir o trabalho do JavaScript e repassá-lo para o motor de renderização visual do navegador por meio de um CSS Global padrão, que definiu a `section` principal, bem como as divs responsáveis pelas `.columns` e `.column`. A estilização segue a base do Bulma (sem utilizá-lo diretamente) para garantir maior fidelidade ao padrão do projeto.
 
 Eu utilizei o servidor na porta `8000` (flag para trocar porta do json-server: `--port 8000`).
+
+Inicialmente, havia tomado a liberdade de editar o `db.json` para incluir um campo de `contributions`, e salvar as informações de contribuição como:
+
+```json
+  "contributions": [
+    {
+      "amount": "10",
+      "id": 2
+    }
+  ]
+```
+
+No entando, como isso foge do padrão do projeto, eu decidi utilizar os Cookies para armazenar o carrinho, e não alterar o `db.json`.

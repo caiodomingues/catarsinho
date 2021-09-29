@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import { UserProvider } from "./contexts/UserContext";
+import { CartProvider } from "./contexts/CartContext";
 import Routes from "./routes";
 import "./App.css";
 
 function App() {
   return (
-    <UserProvider>
+    <CartProvider>
       <Header />
       <section>
         <div className="container">
@@ -14,7 +14,7 @@ function App() {
           </div>
         </div>
       </section>
-    </UserProvider>
+    </CartProvider>
   );
 }
 

@@ -22,8 +22,8 @@ function Home({ children }: HomeProps) {
   return (
     <>
       {projects?.map((project) => (
-        <div className="column">
-          <Card key={project.id} project={project} />
+        <div key={project.id} className="column">
+          <Card project={project} />
         </div>
       ))}
     </>

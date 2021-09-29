@@ -1,4 +1,4 @@
-img {
+.image {
   height: auto;
   width: 100%;
   max-width: 100%;
@@ -47,17 +47,17 @@ img {
   margin-bottom: 1.5rem;
 }
 
-p {
+.box p {
   margin: 0;
 }
 
-span {
+.box span {
   font-weight: 700;
   font-size: 1.25rem;
 }
 
 .collected {
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 
 .pt_3 {
