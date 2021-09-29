@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Tormenta 20",
+      "imageUrl": "https://s3-sa-east-1.amazonaws.com/cdn.br.catarse/uploads/project/uploaded_image/95157/project_thumb_large_catarse-card.png",
+      "description": "Tormenta é o maior universo de fantasia do Brasil. Criado em 1999, possui dezenas de títulos publicados, prêmios nacionais e internacionais e, o mais importante, dezenas de milhares de fãs. Em 2019, Tormenta completa 20 anos. Para celebrar, vamos lançar um novo RPG. Este é Tormenta 20 — e você pode fazer parte dele!",
+      "goal": 80000,
+      "collected": 1920000
+    },
+    {
+      "id": 2,
+      "title": "Arlindo",
+      "imageUrl": "https://s3-sa-east-1.amazonaws.com/cdn.br.catarse/uploads/project/uploaded_image/127841/project_thumb_large_ai_meu_deus_arlindo.jpg",
+      "description": "Com um traço divertido, cores vivas e um monte de referências aos anos 2000, Arlindo acompanha a vida de um adolescente do interior do Rio Grande do Norte, cheio de dúvidas e sonhos. Entre uma sessão e outra de filmes aos fins de semana com suas melhores amigas, ele tem que lidar com as primeiras paqueras, a escola e sua complicada vida em família. Arlindo é um amigo carinhoso, um filho ansioso e irmão dedicado, um neto atencioso, um paquerinha BEM emocionado, cheio de vontade de achar seu lugar no mundo enquanto vai encontrando sentido para anções de Sandy & Junior pelo caminho.",
+      "goal": 84000,
+      "collected": 385000
+    },
+    {
+      "id": 3,
+      "title": "De onde viemos?",
+      "imageUrl": "https://s3-sa-east-1.amazonaws.com/cdn.br.catarse/uploads/project/uploaded_image/143573/project_thumb_large_52a4ccc7-cf37-4af3-bbae-059e18de6217.jpg",
+      "description": "De onde viemos? Como surgiu o mundo? De onde veio a humanidade? Essas são perguntas que nos intrigam desde os primórdios, e nada melhor do que os deuses para resolver as nossas angústias, trazendo respostas e sentido para a realidade em que vivemos.",
+      "goal": 70000,
+      "collected": 38000
+    },
+    {
+      "id": 4,
+      "title": "projetosurvivor",
+      "imageUrl": "https://s3-sa-east-1.amazonaws.com/cdn.br.catarse/uploads/project/uploaded_image/143208/project_thumb_large_953b49ac-824c-40af-88c9-eb7aacd08ca9.png",
+      "description": "Luiza Caspary é atriz de voz e cantora com mais de duas décadas de experiência, 2 álbuns autorais lançados e mais de 10 mil campanhas publicitárias realizadas com sua voz.",
+      "goal": 80000,
+      "collected": 28800
+    },
+    {
+      "id": 5,
+      "title": "Human Deck",
+      "imageUrl": "https://s3-sa-east-1.amazonaws.com/cdn.br.catarse/uploads/project/uploaded_image/143979/project_thumb_large_dd039a7b-ff29-40a9-b0ec-3113d5a3f1ab.png",
+      "description": "The Human Deck é um baralho feito com muito carinho. São 48 cartas únicas, criadas para oferecer um momento de reflexão no dia a dia da gente.",
+      "goal": 20000,
+      "collected": 2776
+    },
+    {
+      "id": 6,
+      "title": "Erra uma vez",
+      "imageUrl": "https://s3-sa-east-1.amazonaws.com/cdn.br.catarse/uploads/project/uploaded_image/142018/project_thumb_large_9e0621d1-1f9c-4949-8095-3f5709dbd984.png",
+      "description": "O perfeccionismo, a procrastinação e o medo de julgamentos de outras pessoas são os maiores desafios que muitas pessoas encontram quando vão tirar seus projetos do papel.",
+      "goal": 37400,
+      "collected": 117600
+    },
+    {
+      "id": 7,
+      "title": "Imperialismo Tardio",
+      "imageUrl": "https://s3-sa-east-1.amazonaws.com/cdn.br.catarse/uploads/project/uploaded_image/144121/project_thumb_large_b52bda4f-bec6-496a-a1b1-0562c17be6d5.jpeg",
+      "description": "Em pleno século XXI, ainda podemos falar de imperialismo? O que tem a ver os atuais retrocessos em curso no Brasil com a lógica do imperialismo? O presente livro versa por tentar responder, de maneira introdutória, essas e outras questões. A partir de artigos de intelectuais marxistas consagrados e outros jovens pesquisadores que se dedicam ao tema.",
+      "goal": 35000,
+      "collected": 7495
+    },
+    {
+      "id": 8,
+      "title": "Ordem Paranormal",
+      "imageUrl": "https://s3-sa-east-1.amazonaws.com/cdn.br.catarse/uploads/project/uploaded_image/122021/project_thumb_large_Capa_para_Catarse__Tamanho_reduzido_.jpg",
+      "description": "Ordem Paranormal: Enigma do Medo é um jogo de exploração, enigmas e sobrevivência com uma narrativa profunda e envolvente no universo de RPG criado por Rafael Lange (Cellbit).",
+      "goal": 500000,
+      "collected": 4230400
+    }
+  ]
+}
