@@ -12,17 +12,19 @@ export function UserProvider({ children }: UserProviderProps) {
 
   useEffect(() => {
     const fetchContributions = async () => {
-      const res = await fetch("https://localhost:3000/api/contributions");
+      const res = await fetch("http://localhost:8000/projects");
       const json = await res.json();
       setContributions(json);
     };
 
     fetchContributions();
-  }, [contributions]);
+  }, []);
 
   async function addContribution(project: Project) {
-    const newContributions = [...(contributions || []), project];
-    setContributions(newContributions);
+    // const newContributions = [...(contributions || []), project];
+    // setContributions(newContributions);
+
+    console.log("addContribution", project);
   }
 
   return (
@@ -41,7 +43,7 @@ export function useUser() {
   const context = useContext(UserContext);
 
   if (!context) {
-    throw new Error("useUser must be used within an AuthProvider.");
+    throw new Error("useUser must be used within an UserProvider.");
   }
 
   return context;

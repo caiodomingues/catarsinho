@@ -1,0 +1,56 @@
+.nav {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  background-color: #00d1b2;
+  color: #fff;
+}
+
+.brand {
+  align-items: stretch;
+  display: flex;
+  flex-shrink: 0;
+  min-height: 3.25rem;
+}
+
+.brand a {
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.brand a,
+.contributions div {
+  font-weight: 700;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  line-height: 1.5;
+
+  padding: 0.5rem 0.75rem;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    min-width: 3.25rem;
+  }
+
+  .nav,
+  .brand a,
+  .contributions div {
+    align-items: center;
+    display: flex;
+  }
+
+  .contributions {
+    justify-content: flex-end;
+    margin-left: auto;
+    align-items: stretch;
+    display: flex;
+  }
+}

@@ -1,1 +1,150 @@
-/* The component style is inserted here. */
+img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 3rem !important;
+
+  display: block;
+  position: relative;
+}
+
+.title,
+.subtitle {
+  word-break: break-word;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0 0 1.5rem 0;
+  overflow: hidden !important;
+
+  color: #363636;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.subtitle {
+  margin-top: -1.25rem;
+  text-align: justify;
+
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+}
+
+.box:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin: 0;
+}
+
+span {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.collected {
+  font-size: 2rem;
+}
+
+.pt_3 {
+  padding-top: 0.75rem;
+}
+
+.pt_5 {
+  padding-top: 1.5rem;
+}
+
+label,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  box-sizing: border-box;
+  clear: both;
+  font-size: 1rem;
+  position: relative;
+  text-align: inherit;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.25;
+  position: relative;
+}
+
+input {
+  cursor: pointer;
+  vertical-align: baseline;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  width: 100%;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(0.5em - 1px);
+
+  font-size: 1.25rem;
+
+  background-color: #363636;
+  color: #fff;
+  border-color: transparent;
+  border-width: 1px;
+
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  height: 2.5em;
+  line-height: 1.5;
+  position: relative;
+  vertical-align: top;
+}
+
+@media screen and (min-width: 1024px) {
+  .left_column,
+  .right_column {
+    padding: 0.75rem;
+  }
+
+  .left_column {
+    flex: none;
+    width: 60%;
+  }
+
+  .right_column {
+    flex: none;
+    width: 40%;
+  }
+
+  .right_column > p {
+    text-align: center;
+  }
+}
